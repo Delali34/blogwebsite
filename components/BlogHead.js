@@ -8,6 +8,7 @@ import {
   BiLogoTwitter,
 } from "react-icons/bi";
 
+
 function BlogHead() {
   return (
     <div>
@@ -36,6 +37,23 @@ function BlogHead() {
               <Link href="/">
                 {" "}
                 <h3>Contact</h3>
+              </Link>
+            </div>
+          </div>
+
+          <div>
+            <div className=" gap-3 lg:flex items-center hidden">
+             
+              <Link target="_blank" href="">
+                <div>
+                  <BiLogoInstagramAlt className="text-pink-600 text-3xl cursor-pointer hover:scale-110" />
+                </div>
+              </Link>
+              
+              <Link target="_blank" href="">
+                <div>
+                  <BiLogoTwitter className="text-blue-400 text-3xl cursor-pointer hover:scale-110" />
+                </div>
               </Link>
             </div>
           </div>
