@@ -7,10 +7,6 @@ import {
   BiLogoTiktok,
   BiLogoTwitter,
 } from "react-icons/bi";
-const Categories = [
-  { name: "Bro code", slug: "bro-code" },
-  { name: "Fashion", slug: "fashion" },
-];
 
 function BlogHead() {
   return (
@@ -40,31 +36,6 @@ function BlogHead() {
               <Link href="/">
                 {" "}
                 <h3>Contact</h3>
-              </Link>
-            </div>
-          </div>
-
-          <div>
-            <div className=" gap-3 lg:flex items-center hidden">
-              <Link target="_blank" href="">
-                <div>
-                  <BiLogoSnapchat className="text-yellow-300  text-3xl cursor-pointer hover:scale-110" />
-                </div>
-              </Link>
-              <Link target="_blank" href="">
-                <div>
-                  <BiLogoInstagramAlt className="text-pink-600 text-3xl cursor-pointer hover:scale-110" />
-                </div>
-              </Link>
-              <Link target="_blank" href="">
-                <div>
-                  <BiLogoTiktok className="text-white text-3xl cursor-pointer hover:scale-110" />
-                </div>
-              </Link>
-              <Link target="_blank" href="">
-                <div>
-                  <BiLogoTwitter className="text-blue-400 text-3xl cursor-pointer hover:scale-110" />
-                </div>
               </Link>
             </div>
           </div>
