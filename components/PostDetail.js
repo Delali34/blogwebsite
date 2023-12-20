@@ -37,7 +37,7 @@ const PostDetail = ({ post }) => {
     // ... add other custom renderers if needed
   };
   return (
-    <div className="">
+    <div className="bg2">
       <div className="w-full h-full relative font-mont">
         <Image
           className="w-full h-[60vh] min-h-[500px] object-cover"
@@ -47,9 +47,9 @@ const PostDetail = ({ post }) => {
           height={1000}
         />
       </div>
-      <div className="max-w-[1000px] mx-auto px-5">
+      <div className="max-w-[1000px] mx-auto md:px-2">
         <div className="container pt-10 mx-auto px-5 ">
-          <h3 className="text-purple-500 underline lg:text-4xl text-xl font-bold">
+          <h3 className="text-purple-500  lg:text-4xl text-xl font-bold">
             {post.title}
           </h3>
           <div className="flex items-center gap-3 mt-5">

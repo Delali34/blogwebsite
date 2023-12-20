@@ -27,7 +27,7 @@ export default function Home() {
           <div className="lg:mt-20 mt-10">
             <div>
               <h1 className="lg:text-4xl text-2xl mb-5 lg:font-bold font-medium text-white">
-                Recent Posts
+                Lateste News
               </h1>
             </div>
 
